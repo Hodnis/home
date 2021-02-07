@@ -1,88 +1,98 @@
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 h1 {
-    font-size: 10rem;
-    color: black;
-
-    
+  font-size: 8rem;
+  color: black;
 }
 
 h2 {
-    margin-top: 15%;
-    font-size: 4rem;
-
+  font-size: 2rem;
 }
 p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 body {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
-    /*background-image: linear-gradient(to left, #cdfffc, #ffc764, #ff884b, #ff577f);*/
-    /*
-    background-image: linear-gradient(#11698e, #f8f1f1, #16c79a);
-    */
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 
-
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* NAV BAR */
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+/* BUTTONS */
 
 .container {
-    padding: 3% 15% 3%;
+  padding: 3% 15% 3%;
+  text-align: center;
 }
 
-.one {
-    margin-left: 10%;
-    float: left;
-}
-
-.two {
-    margin-left: 10%;
-    text-align: center;
-    float: left;
-}
-
-.three {
-    margin-left: 10%;
-    float: left;
+.container-fluid {
+  padding 3% 15% 3%;
+  display: inline-block;
 }
 
 .button {
-    background-color: white; /* Green */
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 175px;
-    height: 100px;
+  background-color: white; /* Green */
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 175px;
+  height: 125px;
+  border-radius: 25px;
 }
 
 .button:hover {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .back-button {
-    background-color: white; /* Green */
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.6rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 100px;
-    height: 70px;
+  background-color: white; /* Green */
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
 }
 
 .back-button:hover {
-    background-color: lightblue;
+  background-color: lightblue;
 }
