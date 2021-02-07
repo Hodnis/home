@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hjemmeside</title>
-    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!--NAV BAR-->
 
-
-
-    <h1>Welcome</h1>
-
-
+    <div id="nav-bar">
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="cv.html">Info</a>
+        <a href="shop.html">Shop</a>
+        <a href="stock.html">Stocks</a>
+      </div>
+    </div>
     <div class="container">
-        <div class="one">
-            <button class="button" onclick="document.location='cv.html'">
-                Info about me
-            </button>
-        </div>
-        <div class="two">
-            <button class="button" onclick="document.location='shop.html'">
-                Shop
-            </button>
-        </div>
-        <div class="three">
-            <button class="button" onclick="document.location='stock.html'">
-                Stocks
-            </button>
-        </div>
+      <h1>Welcome</h1>
+    </div>
+
+    <div class="container-fluid">
+      <button class="button" onclick="document.location='cv.html'">
+        Info about me
+      </button>
+
+      <button class="button" onclick="document.location='shop.html'">
+        Shop
+      </button>
+
+      <button class="button" onclick="document.location='stock.html'">
+        Stocks
+      </button>
+    </div>
+    <div>
+      <ul>
+        <li>
+          Her skal jeg ha bildelinker til de forskjellige seksjonene i stedet
+          for buttons
+        </li>
+      </ul>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
