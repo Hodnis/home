@@ -15,19 +15,31 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <!--NAV BAR-->
-
     <div id="nav-bar">
       <div class="topnav">
         <a class="active" href="index.html">Home</a>
         <a href="cv.html">Info</a>
         <a href="shop.html">Shop</a>
         <a href="stock.html">Stocks</a>
+        <div class="dropdown">
+          <button class="dropbtn">Games</button>
+          <div class="dropdown-content">
+            <a href="guessGame/index.html">Number Game</a>
+            <a href="#">... Under Construction ...</a>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- CONTENT-->
     <div class="container">
       <h1>Welcome</h1>
     </div>
@@ -53,7 +65,11 @@
         </li>
       </ul>
     </div>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
